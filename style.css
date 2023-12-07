@@ -74,3 +74,9 @@ button:active {
   margin-bottom: 5px;
   display: none;
 }
+button:hover {
+  color: #ff416c;
+  background-color: #ffffff;
+  transition: all;
+  cursor: pointer;
+}
