@@ -11,7 +11,7 @@ body {
   text-align: center;
   position: absolute;
   inset: 0;
-  margin: auto;
+  margin: 235px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -24,7 +24,7 @@ body {
 }
 
 #detalle {
-  background: #ff416c;
+  background: #800080;
   width: 50%;
   height: 100%;
   float: left;
@@ -49,8 +49,8 @@ button {
   font-weight: bold;
   padding: 12px 45px;
   border-radius: 30px;
-  background-color: #ff416c;
-  border: 1px solid #ff416c;
+  background-color: #800080;
+  border: 1px solid #800080;
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -75,8 +75,15 @@ button:active {
   display: none;
 }
 button:hover {
-  color: #ff416c;
+  color: #800080;
   background-color: #ffffff;
   transition: all;
   cursor: pointer;
+}
+img {
+  width: 1350px;
+  position: relative;
+}
+#title {
+  color: #800080;
 }
