@@ -81,8 +81,7 @@ button:hover {
   cursor: pointer;
 }
 img {
-  width: 1350px;
-  position: relative;
+  width: 100%;
 }
 #title {
   color: #800080;
